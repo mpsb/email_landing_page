@@ -11,7 +11,7 @@ This web app assumes that you have MySQL installed and your local terminal prope
 
 2. Open the MySQL CLI and run the `source schema.sql` command to setup the database that stores the email information.
 
-3. Make sure to input your MySQL credentials in the `.env` file so that the landing page can communicate with your database. Structure the `.env` file as follows:
+3. Create an `.env` file and input your MySQL credentials so that the landing page can communicate with your database. Structure the `.env` file as follows:
 
 ```
 DB_HOST=<insert hostname here>
