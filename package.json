@@ -1,0 +1,26 @@
+{
+  "name": "email_landing_page",
+  "version": "1.0.0",
+  "description": "a landing page built using node.js that gets an email input and stores it inside a mysql database.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpsb/email_landing_page.git"
+  },
+  "author": "mpsb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mpsb/email_landing_page/issues"
+  },
+  "homepage": "https://github.com/mpsb/email_landing_page#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "faker": "^5.5.3",
+    "mysql": "^2.18.1"
+  }
+}
